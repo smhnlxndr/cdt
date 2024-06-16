@@ -1,0 +1,30 @@
+{
+  "languages": [
+    {
+      "name": "C#",
+      "fileExtensions": [".cs"],
+      "ignoreExtensions": [".designer.cs"],
+      "singleLineComment": "//",
+      "multiLineCommentStart": "/*",
+      "multiLineCommentEnd": "*/",
+      "ignorePatterns": ["// TODO:", "// FIXME:", "// NOTE:"],
+      "methodSpecificComments": ["/// <summary>", "/// <param", "/// <returns"]
+    },
+    {
+      "name": "Java",
+      "fileExtensions": [".java"],
+      "ignoreExtensions": [],
+      "singleLineComment": "//",
+      "multiLineCommentStart": "/*",
+      "multiLineCommentEnd": "*/",
+      "ignorePatterns": ["// TODO:", "// FIXME:", "// NOTE:"]
+    },
+    {
+      "name": "Python",
+      "fileExtensions": [".py"],
+      "ignoreExtensions": [],
+      "singleLineComment": "#",
+      "ignorePatterns": ["# TODO:", "# FIXME:", "# NOTE:"]
+    }
+  ]
+}
